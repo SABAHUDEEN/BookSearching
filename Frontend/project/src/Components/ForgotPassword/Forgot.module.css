@@ -1,0 +1,143 @@
+/* Forgot.module.css */
+.fullbody {
+    background: linear-gradient(135deg, #A1D6E2, #00768d);
+  }
+  
+  .container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #928f8f;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #00768d;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+  }
+  
+  .form {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .inputDiv {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: none;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    border: 2px solid #857e7e;
+    border-radius: 5px;
+    padding: 8px;
+    transition: border-color 0.3s ease;
+    background-color: #7c72724c;
+    color: #333;
+    font-size: 16px;
+    border-radius: 30px;
+    width: 100%;
+  }
+  
+  .input:hover {
+    border-color: #333;
+    box-shadow: 10px 20px 20px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #555;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input::placeholder {
+    color: #aaaaaa;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    color: #00768d;
+  }
+  
+  .formControl {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  .validationMessage {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .but {
+
+    margin-top: 20px;
+
+  }
+  
+  .btnOutlineSecondary {
+    border: 1px solid #151515;
+    background: linear-gradient(135deg, #A1D6E2, #00768d);
+    color: #000;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  
+  .btnOutlineSecondary:hover {
+    background-color: #857e7e;
+    color: white;
+    box-shadow: 3px 3px 3px black;
+  }
+  
+  .singleLine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footerDiv {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .text {
+    font-size: 11px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .an {
+    text-decoration: none;
+    color: #857e7e;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .an:hover {
+    color: #00768d;
+  }
+  
